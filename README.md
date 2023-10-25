@@ -1,6 +1,6 @@
 # Time-Series-Directional-Change-Analysis
 
-This repository contains a simple Python implementation of the directional change analysis techniques which are proposed in [1].
+This repository contains a simple Python implementation of the directional change analysis techniques which are proposed in [1], and inspired by another GitHub repository 'JurgenPalsma/dcgenerator' (https://github.com/JurgenPalsma/dcgenerator).
 
 ## Introduction
 

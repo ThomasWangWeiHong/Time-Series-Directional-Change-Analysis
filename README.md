@@ -10,7 +10,7 @@ In the traditional time series analysis paradigm, one would sample prices at fix
 
 ## Sample Results
 
-The following results are obtained using a truncated version of real historical EUR-USD exchange rate data for the period of September 2023 (first 1000 tick data points), which is provided by TrueFX (https://www.truefx.com/). In order to download the complete dataset, one must first register for an account (Free-of-Charge) with TrueFX before accessing the 'Historical Downloads' section (https://www.truefx.com/truefx-historical-downloads/) to download the dataset.
+The following results are obtained using a truncated version of real historical EUR-USD exchange rate data for the period of September 2023 (first 1000 data points), which is provided by TrueFX (https://www.truefx.com/). In order to download the complete dataset, one must first register for an account (Free-of-Charge) with TrueFX before accessing the 'Historical Downloads' section (https://www.truefx.com/truefx-historical-downloads/) to download the dataset.
 
 The original time series plot is shown in the figure below. The time series can additionally be smoothened using a kalman filter first before performing the DC analysis for better results.
 

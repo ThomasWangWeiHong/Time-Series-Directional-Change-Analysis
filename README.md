@@ -6,11 +6,11 @@ This repository contains a simple Python implementation of the directional chang
 
 Directional Change (DC) analysis is a paradigm proposed by the authors in [1] for the analysis of financial time series. 
 
-In the traditional time series analysis paradigm, one would sample prices at fixed intervals, whereas the DC paradigm is essentially a data-driven approach where the data informs the algorithm when to sample prices. By looking price changes from another perspective, it is believed that one can extract new information from data that complements what is oberserved under the traditional time series analysis paradigm. This new information can be utilized by machine learning techniques in order to infer regime information about the market, which in turn helps in the development of algorithmic trading strategies.
+In the traditional time series analysis paradigm, one would sample prices at fixed intervals, whereas the DC paradigm is essentially a data-driven approach where the data informs the algorithm when to sample prices. By looking at price changes from another perspective, it is believed that one can extract new information from data that complements what is oberserved under the traditional time series analysis paradigm. This new information can be utilized by machine learning techniques in order to infer regime information about the market, which in turn helps in the development of algorithmic trading strategies.
 
 ## Sample Results
 
-The following results are obtained using a truncated version of real historical EUR-USD exchange rate data for the period of September 2023 (first 1000 tick data points), which is provided by TrueFX (https://www.truefx.com/). In order to download the complete dataset, one must first register an account (Free-of-Charge) with TrueFX before accessing the 'Historical Downloads' section (https://www.truefx.com/truefx-historical-downloads/) to download the dataset.
+The following results are obtained using a truncated version of real historical EUR-USD exchange rate data for the period of September 2023 (first 1000 tick data points), which is provided by TrueFX (https://www.truefx.com/). In order to download the complete dataset, one must first register for an account (Free-of-Charge) with TrueFX before accessing the 'Historical Downloads' section (https://www.truefx.com/truefx-historical-downloads/) to download the dataset.
 
 The original time series plot is shown in the figure below. The time series can additionally be smoothened using a kalman filter first before performing the DC analysis for better results.
 

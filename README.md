@@ -14,11 +14,11 @@ The following results are obtained using a truncated version of real historical 
 
 The original time series plot is shown in the figure below. The time series can additionally be smoothened using a kalman filter first before performing the DC analysis for better results.
 
-![Original Time Series Plot](assets/EURUSD-2023-09 Time Series Plot.jpg)
+![Original Time Series Plot](https://github.com/ThomasWangWeiHong/Time-Series-Directional-Change-Analysis/blob/main/assets/EURUSD-2023-09%20Time%20Series%20Plot.jpg)
 
 The thresholds for event detection can then be set by the user (default threshold value is 0.0001), after which the DC analysis can be performed. The resulting annotated time series plot and its animated version are shown below.
 
-![Annotated Time Series Plot](assets/Annotated EURUSD-2023-09 Plot.jpg)
+![Annotated Time Series Plot](https://github.com/ThomasWangWeiHong/Time-Series-Directional-Change-Analysis/blob/main/assets/Annotated%20EURUSD-2023-09%20Plot.jpg)
 
 ![Annotated Time Series Animation](https://github.com/ThomasWangWeiHong/Time-Series-Directional-Change-Analysis/blob/main/assets/Annotated%20EURUSD-2023-09%20Animation.gif)
 
@@ -26,7 +26,7 @@ In addition, the Total Price Movement (TMV) variable and Time for Completion of 
 
 The TMV-T feature space for the truncated data is illustrated below:
 
-![TMV-T Feature Space](assets/EURUSD-2023-09 Indicator Feature Space Plot.jpg)
+![TMV-T Feature Space](https://github.com/ThomasWangWeiHong/Time-Series-Directional-Change-Analysis/blob/main/assets/EURUSD-2023-09%20Indicator%20Feature%20Space%20Plot.jpg)
 
 ## Installation:
 

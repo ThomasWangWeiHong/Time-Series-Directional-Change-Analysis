@@ -22,7 +22,7 @@ The thresholds for event detection can then be set by the user (default threshol
 
 ![Annotated Time Series Animation](https://github.com/ThomasWangWeiHong/Time-Series-Directional-Change-Analysis/blob/main/assets/Annotated%20EURUSD-2023-09%20Animation.gif)
 
-In addition, the Total Price Movement (TMV) variable and Time for Completion of a Trend (T) variable are then computed from the data, normalized, and plotted in order to visualize how these two variables can be used to identify different regimes in the market. The implementation in this repository uses the event class to colour the scatterplot points instead of using the regime information, so one may wish to modify the source code to use regime information instead when it is available. For more details on the computation of the TMV and T variables, one can consult reference [1].
+In addition, the Total Price Movement (TMV) variable and Time for Completion of a Trend (T) variable are then computed from the data, normalized, and plotted in order to visualize how these two variables can be used to identify different regimes in the market. The implementation in this repository uses the event class to colour the scatterplot points instead of using the regime information, so one may wish to modify the source code to use regime information instead when it is available. For more details on the computation of the TMV and T variables, one can consult [1].
 
 The TMV-T feature space for the truncated data is illustrated below:
 
